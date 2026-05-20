@@ -63,7 +63,7 @@ PhoneBillTest >> testPhoneBillSumsAllCallTypes [
 
 { #category : 'running' }
 PhoneBillTest >> testPhoneBillTotalEqualsMonthlyFeePlusCallsTotal [
-    "Invariant: total must always equal monthlyFee + callsTotal"
+    "Invariant: total must always equal monthlyFee + callsTotal "
     | phoneBill |
     customer registerCall: 
         (LocalCall 
